@@ -14,13 +14,8 @@ public class ArremessoDePeso extends Esporte{
 
         for (int i = 0; i < numeroArremessos; i++) {
             this.distanciaObtidaUm[i] = umaDistanciaObtidaUm[i];
-            System.out.println(this.distanciaObtidaUm[i]);
-        }
-
-        for (int i = 0; i < numeroArremessos; i++) {
             this.distanciaObtidaDois[i] = umaDistanciaObtidaDois[i];
         }
-
         Arrays.sort(this.distanciaObtidaUm);
         Arrays.sort(this.distanciaObtidaDois);
     }
@@ -31,12 +26,15 @@ public class ArremessoDePeso extends Esporte{
         for (int i = numeroArremessos-1; i >= 0; i--) {
 
             System.out.printf("Arremesso " + j + " Jogador 1: ");
-            System.out.printf("%.2f \n", distanciaObtidaUm[i]);
+            System.out.printf("%.2fm \n", distanciaObtidaUm[i]);
+
+
             System.out.printf("Arremesso " + j + " Jogador 2: " );
-            System.out.printf("%.2f \n", distanciaObtidaDois[i]);
+            System.out.printf("%.2fm \n", distanciaObtidaDois[i]);
+            System.out.println("-------------------------------");
+
             j++;
         }
-
 
 
         if (this.distanciaObtidaUm[2] > this.distanciaObtidaDois[2]){
