@@ -13,55 +13,25 @@ public class Main {
         Atleta jogadorUm = new Atleta(19,"br","João");
         Atleta jogadorDois = new Atleta(19,"br","Murillo");
 
-        float umaDistanciaObtidaUm[] = {(float)Math.random() * 100, (float)Math.random() * 100 , (float)Math.random() * 100};
-        float umaDistanciaObtidaDois[] = {(float)Math.random() * 100 , (float)Math.random() * 100, (float)Math.random() * 100};
+        float umaDistanciaObtidaUm[] = {(float)Math.random() * 40 + 1, (float)Math.random() * 40 + 1, (float)Math.random() * 40 + 1};
+        float umaDistanciaObtidaDois[] = {(float)Math.random() * 40 + 1 , (float)Math.random() * 40 + 1, (float)Math.random() * 40 + 1};
         ArremessoDePeso arremessoDePeso = new ArremessoDePeso(jogadorUm, umaDistanciaObtidaUm, jogadorDois, umaDistanciaObtidaDois);
+
+
+        float notasJogadorUm[] = {(float)Math.random() * 10, (float)Math.random() * 10, (float)Math.random() * 10, (float)Math.random() * 10, (float)Math.random() * 10};
+        float notasJogadorDois[] = {(float)Math.random() * 10, (float)Math.random() * 10, (float)Math.random() * 10, (float)Math.random() * 10, (float)Math.random() * 10};
+        GinasticaArtistica ginasticaArtistica = new GinasticaArtistica(jogadorUm, notasJogadorUm,jogadorDois, notasJogadorDois);
+
+
+        System.out.println("\t\tOlá jogadores, sejam bem vindos as Olímpiadas de Chernobil\n\n");
+        System.out.println("Arremesso de Chernobil ");
         arremessoDePeso.defineArremeco();
 
-        //float notasJogadorUm[] = new float[5];
-        //float notasJogadorDois[] = new float[5];
 
-        //GinasticaArtistica ginasticaArtistica = new GinasticaArtistica(jogadorUm, notasJogadorUm,jogadorDois, notasJogadorDois);
-        Scanner scanner = new Scanner(System.in);
-        int escolherJogo;
-        System.out.println("Olá jogadores, sejam bem vindos as Olímpiadas de Chernobil");
-        System.out.println("Digite a opção que deseja jogar");
-        System.out.println("\t1-Arremeso de peso \n\t2-Ginástica Artística");
+        System.out.println("\n");
 
-        escolherJogo = scanner.nextInt();
-
-        do {
-
-
-
-            if (escolherJogo == 1){
-                System.out.println("Arremesso de peso");
-
-
-            }
-
-            else if(escolherJogo == 2){
-                System.out.println("Ginástica artística");
-
-                Random geradorDeNotas = new Random();
-
-                for (int i = 1; i <= 5; i++) {
-                    System.out.printf("Nota do juíz Nº " + i);
-                    System.out.println("");
-                    System.out.println(geradorDeNotas.nextInt(11));
-                }
-
-
-            }
-
-            else{
-                System.out.println("Opção não encontrada, digite novamente");
-                escolherJogo = scanner.nextInt();
-            }
-
-
-
-        }while (escolherJogo != 1 || escolherJogo != 2);
+        System.out.println("Ginástica de Chernobil");
+        ginasticaArtistica.defineResultados();
 
     }
 }

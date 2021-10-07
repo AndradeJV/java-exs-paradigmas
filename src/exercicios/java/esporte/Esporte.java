@@ -25,7 +25,7 @@ public class Esporte {
 
     public Atleta getJogadorUm() {
 
-        return vencedor;
+        return jogadorUm;
     }
 
 
