@@ -17,3 +17,11 @@
 - II) Um programa em Java, utilizando o paradigma orientado a objetos, que determina o vencedor nas duas modalidades apresentadas acima. **(Valor 2,5)**
 - III) Um programa em Python, utilizando o paradigma orientado a objetos, que determina o vencedor nas duas modalidades apresentadas acima. **(Valor 2,5)**
 - IV) Explique a diferença dos três programas, pensando em seus paradigmas. **(Valor 2,5)**
+
+# Instrução para avaliação
+
+- Local de construção do software: IntelliJ
+- Para rodar o código deve-se ter o SDK
+  - Na versão de construção do código foi utilizado o java: v16.0.1
+    - Nessa versão certifico e dou fé seu funcionamento
+- Buildar o projeto e dar o play para realizar o teste
