@@ -20,8 +20,15 @@
 
 # Instrução para avaliação
 
+#### Java
 - Local de construção do software: IntelliJ
 - Para rodar o código deve-se ter o SDK
   - Na versão de construção do código foi utilizado o java: v16.0.1
     - Nessa versão certifico e dou fé seu funcionamento
 - Buildar o projeto e dar o play para realizar o teste
+#
+#### C
+- Local de construção do software: CodeBlocks
+- Para rodar o código, basta executar o arquivo "main.exe" localizado em "java-exs-paradigmas/src/exercicios/c/"
+  - Na versão de construção do código foi utilizado o C: ISO/IEC 9899:2018
+    - Nessa versão certifico e dou fé seu funcionamento
