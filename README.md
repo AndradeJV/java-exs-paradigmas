@@ -17,7 +17,7 @@
 - II) Um programa em Java, utilizando o paradigma orientado a objetos, que determina o vencedor nas duas modalidades apresentadas acima. **(Valor 2,5)**
 - III) Um programa em Python, utilizando o paradigma orientado a objetos, que determina o vencedor nas duas modalidades apresentadas acima. **(Valor 2,5)**
 - IV) Explique a diferença dos três programas, pensando em seus paradigmas. **(Valor 2,5)**
-
+##
 # Instrução para avaliação
 
 #### Java
