@@ -1,4 +1,4 @@
-from Esporte import *
+from Esporte.Esporte import *
 
 
 class Arremesso(Esporte):

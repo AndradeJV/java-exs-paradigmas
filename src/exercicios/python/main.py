@@ -1,5 +1,5 @@
-from GinasticaArtistica import GinasticaArtistica
-from Arremesso import Arremesso
+from Esportes.GinasticaArtistica import GinasticaArtistica
+from Esportes.Arremesso import Arremesso
 
 
 
